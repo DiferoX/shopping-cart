@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/shopping-cart/static/css/main.08ac0d95.css",
+    "main.js": "/shopping-cart/static/js/main.e322c939.js",
+    "static/media/Splatoon 3.jpg": "/shopping-cart/static/media/Splatoon 3.912d83ca9e4e7f92289c.jpg",
+    "static/media/Super Smash Bros.jpg": "/shopping-cart/static/media/Super Smash Bros.18e55fabd860c65897e2.jpg",
+    "static/media/Mario Kart 8.jpg": "/shopping-cart/static/media/Mario Kart 8.33840f51a38d096bb464.jpg",
+    "static/media/Super Mario Odyssey.jpg": "/shopping-cart/static/media/Super Mario Odyssey.ad5aec870f05f70628e0.jpg",
+    "static/media/Kirby.jpg": "/shopping-cart/static/media/Kirby.3835406bdc8d76b40c4b.jpg",
+    "static/media/The LEGO Movie.jpg": "/shopping-cart/static/media/The LEGO Movie.2ca5622618287203fa4c.jpg",
+    "static/media/Pokémon Legends.jpg": "/shopping-cart/static/media/Pokémon Legends.cf220b40d534005c22ff.jpg",
+    "static/media/Luigi's Mansion.jpg": "/shopping-cart/static/media/Luigi's Mansion.f173679bfbf6909699ec.jpg",
+    "static/media/The Legend of Zelda.jpg": "/shopping-cart/static/media/The Legend of Zelda.a376e628347eb4dd1e47.jpg",
+    "index.html": "/shopping-cart/index.html",
+    "main.08ac0d95.css.map": "/shopping-cart/static/css/main.08ac0d95.css.map",
+    "main.e322c939.js.map": "/shopping-cart/static/js/main.e322c939.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.08ac0d95.css",
+    "static/js/main.e322c939.js"
+  ]
+}
