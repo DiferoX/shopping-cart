@@ -1,0 +1,62 @@
+.productContent
+{
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  gap: 1rem;
+  height: 28vh;
+  width: 20rem;
+  padding: 0 1rem;
+  border: 2px solid white;
+  border-radius: 20px;
+  transition: 1s;
+}
+
+.productImg
+{
+  height: 90%;
+}
+
+.productContent .infoProductContent
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 80%;
+  width: 100%;
+}
+
+.infoProductBtns
+{
+  display: flex;
+  justify-content: space-between;
+}
+
+.amountContent
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  width: 50%;
+}
+
+.amountContent button
+{
+  width: 25%;
+  border-radius: 5px;
+}
+
+.handlerBtnProduct
+{
+  width: 40%;
+  background-color: yellowgreen;
+  border-radius: 20px;
+}
+
+@media (min-width: 1200px)
+{
+  .productContent
+  {
+    width: 25rem;
+  }
+}
