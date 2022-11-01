@@ -6,7 +6,7 @@ function CartList(props)
 {
   const displayCart = () =>
   {
-    // console.log(props.cartItem);
+    console.log(props.cartItem);
     let cartContent = document.querySelectorAll (".cartListContent");
     cartContent.forEach(item => item.classList.add('active'))
   }
@@ -40,8 +40,8 @@ function CartList(props)
             )
           }
         </div>
-        <p><strong>Total: ${props.total}</strong></p>
-        <div>
+        <p><strong>Total: ${props.total.toFixed(2)}</strong></p>
+        <div className='cartBtnsMainContent'>
           <button onClick={hideCart}>Close</button>
           <button >Checkout</button>
         </div>

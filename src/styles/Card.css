@@ -1,19 +1,42 @@
 .cardContent
 {
+  position: relative;
   display: flex;
   align-items: center;
   gap: 1rem;
-  height: 28vh;
+  height: 20vh;
   width: 90%;
-  padding: 0 1rem;
-  border: 2px solid white;
+  background-color: yellowgreen;
+  padding: 1rem 1rem;
+  border: none;
   border-radius: 20px;
+  box-shadow: 2px 2px 5px rgba(17, 17, 17, 0.8),
+              inset 5px 5px 5px rgba(17, 17, 17, 0.5),
+              inset -5px -5px 10px rgba(17, 17, 17, 0.8);
+  text-shadow: 2px 2px 5px #111;
   transition: 1s;
+}
+
+.cardContent::before
+{
+  content: '';
+  height: 20vh;
+  width: 90%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--darkBlue);
+  border-radius: 20px;
+  box-shadow: inset 5px 5px 5px rgba(17, 17, 17, 0.5),
+              inset -5px -5px 10px rgba(17, 17, 17, 0.8);
+  clip-path: circle(90.0% at 0 0);
 }
 
 .cardImg
 {
   height: 90%;
+  z-index: 1;
+  box-shadow: 5px 5px 10px #111;
 }
 
 .cardContent .infoCardContent
@@ -21,8 +44,10 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 80%;
+  height: 90%;
   width: 100%;
+  font-size: 1.2rem;
+  z-index: 1;
 }
 
 .infoCardBtns
@@ -31,18 +56,22 @@
   justify-content: space-between;
 }
 
-.amountContent
+.amountCardContent
 {
   display: flex;
   justify-content: space-between;
   align-items: stretch;
-  width: 50%;
+  width: 80%;
+  box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.2),
+              inset -5px -5px 20px rgba(50, 50, 50, 0.4);
 }
 
-.amountContent button
+.amountCardContent button
 {
-  width: 25%;
-  border-radius: 5px;
+  width: 15%;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
 }
 
 .handlerBtnCard
@@ -50,4 +79,12 @@
   width: 40%;
   background-color: yellowgreen;
   border-radius: 20px;
+}
+
+@media (min-width: 1200px)
+{
+  .amountContent p
+  {
+    font-size: 1.5rem;
+  }
 }

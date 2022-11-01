@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter as BrowserRouter, Routes, Route } from "react-router-dom";
 import { v4 as uuidv4 } from 'uuid';
 import App from "./App";
 import Header from "./components/Header";
@@ -53,7 +53,7 @@ const RouteSwitch = () =>
         setCartItem(taskUpdated);
       }
     });
-    cartItem.forEach((item) => newTotal = (newTotal + (item.us * item.amount)))
+    cartItem.forEach((item) => newTotal = (newTotal + item.total))
     setTotal(newTotal);
   }
 

@@ -14,7 +14,7 @@
   /* padding: 0 10%; */
   box-shadow: 0 5px 10px red;
   transition: 1s;
-  z-index: 1;
+  z-index: 4;
 }
 
 .headerMainContent .titleHead

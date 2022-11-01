@@ -12,6 +12,7 @@
               inset 2px 2px 5px rgba(0, 0, 0, 0.6),
               inset -2px -2px 10px rgba(0, 0, 0, 0.8);
   transition: 1s;
+  z-index: 2;
 }
 
 .cartListContent:hover
@@ -38,18 +39,34 @@
 
 .cartListContent.active
 {
-  background-color: rgb(153, 205, 50);
+  background-color: transparent;
   top: 11vh;
-  height: 88vh;
-  width: 20rem;
+  height: 89vh;
+  width: 100%;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: right;
+  text-shadow: 2px 2px 5px rgb(0, 0, 0);
+  transition: 1s;
+}
+
+.cartListContent.active::before
+{
+  content: '';
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.6);
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  filter: blur(10px);
+  transition: 1s;
 }
 
 .cartListContent .displayCartListContent
 {
   display: none;
+  transition: 1s;
 }
 
 .cartListContent.active .displayCartListContent
@@ -58,8 +75,18 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  height: 100%;
-  width: 100%;
+  background-color: brown;
+  /* background-color: yellowgreen; */
+  height: 88vh;
+  width: 20rem;
+  padding: 1.5rem 0;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  box-shadow: -5px 5px 10px rgba(255, 255, 255, 0.2),
+              inset 5px 5px 10px rgba(0, 0, 0, 0.4),
+              inset 0px -10px 20px rgba(0, 0, 0, 0.6);
+  transition: 1s;
+  z-index: 10;
 }
 
 .iconCartListContent .iconCart
@@ -78,8 +105,44 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* height: 70%; */
-  overflow-y: scroll;
+  gap: 1rem;
+  height: 72vh;
+  width: 90%;
+  padding: 0.5rem 0;
+  border-radius: 15px;
+  box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.2),
+              inset -5px -5px 20px rgba(50, 50, 50, 0.4);
+  overflow-y: auto;
+}
+
+.cartBtnsMainContent
+{
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cartBtnsMainContent button
+{
+  height: 1.5rem;
+  width: 45%;
+  background-color: var(--darkBlue);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4),
+              inset 2px 2px 2px rgba(255, 255, 255, 0.2),
+              inset -2px -2px 2px rgba(255, 255, 255, 0.4);
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.cartBtnsMainContent button:hover
+{
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4),
+              inset 2px 2px 2px rgba(255, 255, 255, 0.2),
+              inset -2px -2px 2px rgba(255, 255, 255, 0.4);
+
 }
 
 @media (min-width: 1200px)

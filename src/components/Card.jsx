@@ -5,10 +5,13 @@ function Card(props)
 {
   // console.log(props);
   const [amount, setAmount] = useState(props.item.amount);
+  const [total, setTotal] = useState(props.item.total);
 
   const sendHandler = () =>
   {
     props.item.amount = amount;
+    props.item.total = (props.item.amount * props.item.us);
+    setTotal(props.item.total);
     props.updateTotal();
     // console.log(props.item);
   }
@@ -23,14 +26,13 @@ function Card(props)
       <div className='infoCardContent'>
         <p>{ props.item.name }</p>
         <div>
-          <p>${ props.item.us }</p>
+          <p>${ total }</p>
           <div className='infoCardBtns'>
-            <div className='amountContent'>
+            <div className='amountCardContent'>
               <button onClick={() => sendHandler(setAmount(amount-1))}>-</button>
               <p>{amount}</p>
               <button onClick={() => sendHandler(setAmount(amount+1))}>+</button>
             </div>
-            {/* <button className='handlerBtnCard' onClick={() => sendHandler()}>Add</button> */}
           </div>
         </div>
       </div>
