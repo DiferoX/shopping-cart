@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/shopping-cart/static/css/main.08ac0d95.css",
-    "main.js": "/shopping-cart/static/js/main.c5f5b693.js",
+    "main.css": "/shopping-cart/static/css/main.c12c6c31.css",
+    "main.js": "/shopping-cart/static/js/main.24248633.js",
     "static/media/Splatoon 3.jpg": "/shopping-cart/static/media/Splatoon 3.912d83ca9e4e7f92289c.jpg",
     "static/media/Super Smash Bros.jpg": "/shopping-cart/static/media/Super Smash Bros.18e55fabd860c65897e2.jpg",
     "static/media/Mario Kart 8.jpg": "/shopping-cart/static/media/Mario Kart 8.33840f51a38d096bb464.jpg",
@@ -12,11 +12,11 @@
     "static/media/Luigi's Mansion.jpg": "/shopping-cart/static/media/Luigi's Mansion.f173679bfbf6909699ec.jpg",
     "static/media/The Legend of Zelda.jpg": "/shopping-cart/static/media/The Legend of Zelda.a376e628347eb4dd1e47.jpg",
     "index.html": "/shopping-cart/index.html",
-    "main.08ac0d95.css.map": "/shopping-cart/static/css/main.08ac0d95.css.map",
-    "main.c5f5b693.js.map": "/shopping-cart/static/js/main.c5f5b693.js.map"
+    "main.c12c6c31.css.map": "/shopping-cart/static/css/main.c12c6c31.css.map",
+    "main.24248633.js.map": "/shopping-cart/static/js/main.24248633.js.map"
   },
   "entrypoints": [
-    "static/css/main.08ac0d95.css",
-    "static/js/main.c5f5b693.js"
+    "static/css/main.c12c6c31.css",
+    "static/js/main.24248633.js"
   ]
 }
