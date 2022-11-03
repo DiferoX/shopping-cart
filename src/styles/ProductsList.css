@@ -4,6 +4,7 @@
   /* background-color: var(--darkBlue); */
   background-color: rgb(255, 255, 255);
   background-image: url(../images/tetris-1.png);
+  background-attachment: fixed;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
