@@ -5,7 +5,7 @@ function Header()
 {
   return (
     <div className="headerMainContent">
-      <Link to="/" className="titleHead">S H O P</Link>
+      <Link to="/" className="titleHead">Video Game</Link>
       <nav className="navBtnsHead">
         <NavLink 
           className={({ isActive }) => (isActive ? "linkHead active" : "linkHead")}
@@ -14,7 +14,7 @@ function Header()
         </NavLink>
         <NavLink 
           className={({ isActive }) => (isActive ? "linkHead active" : "linkHead")} 
-          to="products">
+          to="/products">
           Products
         </NavLink>
         {/* <Link to="products" className="linkHead" >Products</Link> */}

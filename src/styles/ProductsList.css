@@ -3,6 +3,7 @@
   position: relative;
   /* background-color: var(--darkBlue); */
   background-color: rgb(255, 255, 255);
+  background-image: url(../images/tetris-1.png);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -22,9 +23,6 @@
   top: 0;
   left: 0;
   background-color: var(--darkBlue);
-  box-shadow: inset 5px 5px 5px rgba(17, 17, 17, 0.5),
-              inset -5px -5px 10px rgba(17, 17, 17, 0.8);
-  border-radius: 20px;
   clip-path: polygon(90% 80%, 90% 0, 100% 0, 100% 100%, 0 100%, 0 90%);
 }
 
