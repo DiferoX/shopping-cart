@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/shopping-cart/static/css/main.b2971d05.css",
+    "main.css": "/shopping-cart/static/css/main.3abf8aad.css",
     "main.js": "/shopping-cart/static/js/main.0eb5beb1.js",
     "static/media/tetris-1.png": "/shopping-cart/static/media/tetris-1.04727584ee32702facfb.png",
     "static/media/pac-man.png": "/shopping-cart/static/media/pac-man.1c9d4f644d3efd2e32df.png",
@@ -14,11 +14,11 @@
     "static/media/Luigi's Mansion.jpg": "/shopping-cart/static/media/Luigi's Mansion.f173679bfbf6909699ec.jpg",
     "static/media/The Legend of Zelda.jpg": "/shopping-cart/static/media/The Legend of Zelda.a376e628347eb4dd1e47.jpg",
     "index.html": "/shopping-cart/index.html",
-    "main.b2971d05.css.map": "/shopping-cart/static/css/main.b2971d05.css.map",
+    "main.3abf8aad.css.map": "/shopping-cart/static/css/main.3abf8aad.css.map",
     "main.0eb5beb1.js.map": "/shopping-cart/static/js/main.0eb5beb1.js.map"
   },
   "entrypoints": [
-    "static/css/main.b2971d05.css",
+    "static/css/main.3abf8aad.css",
     "static/js/main.0eb5beb1.js"
   ]
 }
